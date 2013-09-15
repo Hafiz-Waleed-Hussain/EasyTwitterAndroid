@@ -1,7 +1,7 @@
 EasyTwitterAndroid
 ==================
-Now i start a new series of libraries with the prefix name Easy. In which i always try to make difficult code to simple wrappers.
-In this library i try to make simple Twitter integration in Android apps.
+Now i start a new series of libraries with the prefix name Easy. In which i always try to convert difficult code into simple wrapper.
+In this library i try to make Twitter integration simple in Android apps.
 At this time this library only support to Login feature.
 Now after including this library in your project. Only do these things.
 
