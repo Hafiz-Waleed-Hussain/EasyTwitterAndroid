@@ -17,13 +17,16 @@ Add this activity into manifest under application tag.
             
 Now add this code into your activity where you want to integrate Twitter login.
 
-  private EasyTwitter _EasyTwitter = null;
   
-  _EasyTwitter = EasyTwitter.getInstance(this, _ConsumerKey, _ConsumerSecretKey, _CallBackUrl);
+  private EasyTwitter easyTwitter = null;
   
+  easyTwitter = EasyTwitter.getInstance(this, _ConsumerKey, _ConsumerSecretKey, _CallBackUrl);
+  
+
 Now when user press the Twitter Login button in your activity. Only call this function.
   
-  _EasyTwitter.login(this);
+
+  easyTwitter.login(this);
 
 
 Now last step. Override your onActivityResult method.
