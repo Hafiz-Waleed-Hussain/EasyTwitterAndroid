@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">EasyTwitter</string>
+
+    <string name="internet_not_available">Internet not available</string>
+
+    <string name="please_try_later">Please try later</string>
+
+</resources>
